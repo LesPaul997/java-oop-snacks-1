@@ -14,7 +14,7 @@ class Studente {
 		}
 	
 		String getAllInfo() {
-			return this.firstName + " " + this.lastName + "," + this.age + "anni";
+			return this.firstName + " " + this.lastName + "," + this.age + " " + "anni";
 		}
 	
 		public static void main(String[] args) {

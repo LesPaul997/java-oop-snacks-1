@@ -9,6 +9,11 @@ public class Main {
 		System.out.println(studente.getAllInfo() + "\n");
 		
 		//Istanza classe ContoBancario
+		ContoBancario conto001 = new ContoBancario(001);
+		System.out.println ("Il saldo del conto " + conto001.getNumber() + " " + "è di: " + conto001.getBalance() + "€" + "\n");
+		conto001.deposit(50);
+		conto001.withdrawal(20);
+		System.out.println ("Saldo residuo del conto " + conto001.getNumber() + " " + "è di: " + conto001.getBalance() + "€" + "\n");
 		
 
 	}
