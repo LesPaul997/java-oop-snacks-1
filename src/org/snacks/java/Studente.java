@@ -13,14 +13,11 @@ class Studente {
 		
 		}
 	
-		String getAllInfo() {
-			return this.firstName + " " + this.lastName + "," + this.age + " " + "anni";
+		String getStudentInfo() {
+			return this.lastName + " " + this.firstName + ", " + this.age + " anni";
+		
 		}
 	
-		public static void main(String[] args) {
-			Studente studente = new Studente ("Pippo", "Alighieri", 52);
-			System.out.println(studente.getAllInfo());
-		}
 		
 	}
 
