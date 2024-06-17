@@ -5,9 +5,9 @@ public class Main {
 	public static void main(String[] args) {
 		
 		//Istanza classe Studente
-		Studente studente1 = new Studente("Ajeje", "Brazorf", 33);
+		Studente studente1 = new Studente("Michele", "Michelino", 50);
 		System.out.println(studente1.getStudentInfo() + "\n");
-		Studente studente2 = new Studente("Anakin", "Skywalker", 33);
+		Studente studente2 = new Studente("Arcangelo", "Gabriele", 28);
 		System.out.println(studente2.getStudentInfo() + "\n");
 		
 		//Istanza classe ContoBancario
